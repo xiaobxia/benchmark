@@ -42,3 +42,12 @@ object#delete x 2,614 ops/sec ±2.89% (79 runs sampled)
 For x 1,018 ops/sec ±2.84% (83 runs sampled)
 Fastest is object#delete
 ```
+
+### String
+
+#### replace
+``` shell
+String#replace x 1,848,753 ops/sec ±2.07% (85 runs sampled)
+String#split_join x 1,026,638 ops/sec ±1.74% (88 runs sampled)
+Fastest is String#replace
+```
