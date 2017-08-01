@@ -29,3 +29,9 @@ object#keys x 8,104,139 ops/sec ±3.01% (85 runs sampled)
 For x 5,988,572 ops/sec ±2.81% (87 runs sampled)
 Fastest is object#keys
 ```
+#### delete
+``` shell
+object#delete x 2,614 ops/sec ±2.89% (79 runs sampled)
+For x 1,018 ops/sec ±2.84% (83 runs sampled)
+Fastest is object#delete
+```
