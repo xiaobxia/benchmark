@@ -20,6 +20,13 @@ Array#indexOf x 17,748,665 ops/sec ±1.63% (84 runs sampled)
 For x 28,792,256 ops/sec ±1.57% (81 runs sampled)
 Fastest is For
 ```
+#### pop_splice_slice
+``` shell
+Array#pop x 40,860,091 ops/sec ±1.42% (88 runs sampled)
+Array#splice x 5,278,594 ops/sec ±1.33% (91 runs sampled)
+Array#slice x 6,713,446 ops/sec ±0.85% (90 runs sampled)
+Fastest is Array#pop
+```
 
 ### Object
 
