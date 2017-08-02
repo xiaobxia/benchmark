@@ -51,3 +51,9 @@ String#replace x 1,848,753 ops/sec ±2.07% (85 runs sampled)
 String#split_join x 1,026,638 ops/sec ±1.74% (88 runs sampled)
 Fastest is String#replace
 ```
+#### connect
+``` shell
+String#`` x 110,113,889 ops/sec ±3.05% (82 runs sampled)
+String#+ x 112,521,494 ops/sec ±2.97% (80 runs sampled)
+Fastest is String#+,String#``
+```
