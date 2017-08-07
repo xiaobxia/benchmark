@@ -63,3 +63,9 @@ String#includes x 14,405,285 ops/sec ±3.01% (88 runs sampled)
 String#indexOf x 14,675,556 ops/sec ±3.19% (85 runs sampled)
 Fastest is String#indexOf
 ```
+#### repeat
+``` shell
+String#repeat x 17,875,978 ops/sec ±3.17% (88 runs sampled)
+For x 9,558,928 ops/sec ±2.40% (82 runs sampled)
+Fastest is String#repeat
+```
