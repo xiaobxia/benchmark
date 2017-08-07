@@ -57,3 +57,9 @@ String#`` x 110,113,889 ops/sec ±3.05% (82 runs sampled)
 String#+ x 112,521,494 ops/sec ±2.97% (80 runs sampled)
 Fastest is String#+,String#``
 ```
+#### includes
+``` shell
+String#includes x 14,405,285 ops/sec ±3.01% (88 runs sampled)
+String#indexOf x 14,675,556 ops/sec ±3.19% (85 runs sampled)
+Fastest is String#indexOf
+```
