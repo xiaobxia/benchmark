@@ -1,4 +1,4 @@
-### 数组
+### Array
 #### 把arguments转换为数组
 ``` javascript
 Array.from(arguments); //good
@@ -15,7 +15,7 @@ let temp2 = ary.find(function (value) {
 ``` javascript
 ary.pop(); //good
 ```
-### object
+### Object
 #### 不要使用Object.assign
 ``` javascript
 Object.assign({},obj); //bad 
@@ -25,8 +25,14 @@ Object.assign({},obj); //bad
 Object.keys(obj); //good
 ```
 
-### 字符串
+### String
 #### 拼接重复的字符串
 ``` javascript
 "hello".repeat(10); //good
 ```
+### Number
+#### 转int
+``` javascript
+parseInt('120',10); //good，快25%
+```
+
