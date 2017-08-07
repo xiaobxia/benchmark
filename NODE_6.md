@@ -48,6 +48,12 @@ object#delete x 2,614 ops/sec ±2.89% (79 runs sampled)
 For x 1,018 ops/sec ±2.84% (83 runs sampled)
 Fastest is object#delete
 ```
+#### assign
+``` shell
+object#assign x 1,695,861 ops/sec ±2.18% (89 runs sampled)
+For x 6,889,346 ops/sec ±2.70% (88 runs sampled)
+Fastest is For
+```
 
 ### String
 
