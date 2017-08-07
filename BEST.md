@@ -22,6 +22,10 @@ Object.assign({},obj); //bad
 ```
 #### 通过keys获取所有属性
 ``` javascript
+JSON.parse(JSON.stringify(obj)); //good
+```
+#### 复杂的clone使用json
+``` javascript
 Object.keys(obj); //good
 ```
 
