@@ -27,6 +27,12 @@ Array#splice x 5,278,594 ops/sec ±1.33% (91 runs sampled)
 Array#slice x 6,713,446 ops/sec ±0.85% (90 runs sampled)
 Fastest is Array#pop
 ```
+#### from
+``` shell
+Array#from x 355,716 ops/sec ±3.01% (84 runs sampled)
+Array#slice x 221,524 ops/sec ±2.48% (89 runs sampled)
+Fastest is Array#from
+```
 
 ### Object
 
