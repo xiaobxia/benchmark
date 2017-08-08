@@ -33,6 +33,12 @@ Array#from x 355,716 ops/sec ±3.01% (84 runs sampled)
 Array#slice x 221,524 ops/sec ±2.48% (89 runs sampled)
 Fastest is Array#from
 ```
+#### forEach
+``` shell
+Array#forEach x 5,634,907 ops/sec ±2.20% (86 runs sampled)
+For x 8,222,875 ops/sec ±1.99% (86 runs sampled)
+Fastest is For
+```
 
 ### Object
 

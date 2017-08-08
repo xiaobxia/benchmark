@@ -15,6 +15,12 @@ let temp2 = ary.find(function (value) {
 ``` javascript
 ary.pop(); //good
 ```
+#### 不要使用forEach
+``` javascript
+ary.forEach(function (value) { //bad
+    console.log(value);
+});
+```
 ### Object
 #### 不要使用Object.assign
 ``` javascript
