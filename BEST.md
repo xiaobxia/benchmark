@@ -1,4 +1,4 @@
-### Array
+## Array
 #### 把arguments转换为数组
 - [from.js](./array/from.js)
 ``` javascript
@@ -26,7 +26,7 @@ ary.forEach(function (value) { //bad
     console.log(value);
 });
 ```
-### Object
+## Object
 #### 不要使用Object.assign
 - [assign.js](./object/assign.js)
 ``` javascript
@@ -48,13 +48,13 @@ Object.keys(obj); //good
 Object.keys(obj).length === 0; //good
 ```
 
-### String
+## String
 #### 拼接重复的字符串
 - [repeat.js](./string/repeat.js)
 ``` javascript
 "hello".repeat(10); //good
 ```
-### Number
+## Number
 #### 转int
 - [parseInt.js](./number/parseInt.js)
 ``` javascript
@@ -67,7 +67,7 @@ parseInt('120',10); //good，快25%
 let num = -'120.20'; //good，比其他方法快10倍
 ```
 
-### Function
+## Function
 #### 函数写内部还是外部
 - [inside_outside.js](./function/inside_outside.js)
 ``` javascript
