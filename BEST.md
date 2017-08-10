@@ -26,13 +26,17 @@ ary.forEach(function (value) { //bad
 ``` javascript
 Object.assign({},obj); //bad 
 ```
-#### 通过keys获取所有属性
+#### 复杂的clone使用json
 ``` javascript
 JSON.parse(JSON.stringify(obj)); //good
 ```
-#### 复杂的clone使用json
+#### 通过keys获取所有属性
 ``` javascript
 Object.keys(obj); //good
+```
+#### 判断对象为空用keys
+``` javascript
+Object.keys(obj).length === 0; //good
 ```
 
 ### String
@@ -44,5 +48,9 @@ Object.keys(obj); //good
 #### 转int
 ``` javascript
 parseInt('120',10); //good，快25%
+```
+#### 转number
+``` javascript
+let num = -'120.20'; //good，比其他方法快10倍
 ```
 

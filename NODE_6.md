@@ -87,3 +87,11 @@ String#repeat x 17,875,978 ops/sec ±3.17% (88 runs sampled)
 For x 9,558,928 ops/sec ±2.40% (82 runs sampled)
 Fastest is String#repeat
 ```
+
+### Number
+#### toNumber
+``` shell
+-str x 122,400,007 ops/sec ±2.32% (102 runs sampled)
+parseFloat x 10,768,183 ops/sec ±2.27% (103 runs sampled)
+Fastest is -str
+```
