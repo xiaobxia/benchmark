@@ -5,11 +5,11 @@ const Benchmark = require('benchmark');
 let suite = new Benchmark.Suite;
 
 suite.add('parseInt', function () {
-    parseInt('120');
+  parseInt('120');
 }).add('parseInt with param', function () {
-    parseInt('120',10);
+  parseInt('120', 10);
 }).on('cycle', function (event) {
-    console.log(String(event.target));
+  console.log(String(event.target));
 }).on('complete', function () {
-    console.log('Fastest is ' + this.filter('fastest').map('name'));
+  console.log('Fastest is ' + this.filter('fastest').map('name'));
 }).run({'async': true});
