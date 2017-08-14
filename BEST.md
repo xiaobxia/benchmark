@@ -26,47 +26,57 @@ ary.forEach(function (value) { //bad
     console.log(value);
 });
 ```
+#### for循环拼接比Array.join()略快（如果你不嫌麻烦）
+- [join.js](./array/join.js)
+``` javascript
+let ary = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
+let temp = '';
+for (let k = 0, len = ary.length; k < len; k++) { //good
+  temp += k === 0 ? ary[k] : '_' + ary[k];
+}
+```
 ## Object
 #### 不要使用Object.assign
 - [assign.js](./object/assign.js)
 ``` javascript
 Object.assign({},obj); //bad 
 ```
-#### 复杂的clone使用json
+#### 复杂的clone使用JSON
 - [clone.js](./object/clone.js)
 ``` javascript
 JSON.parse(JSON.stringify(obj)); //good
 ```
-#### 通过keys获取所有属性
+#### 通过Object.keys()获取所有属性
 - [keys.js](./object/keys.js)
 ``` javascript
 Object.keys(obj); //good
 ```
-#### 判断对象为空用keys
+#### 判断对象为空用Object.keys()
 - [keys.js](./object/keys.js)
 ``` javascript
 Object.keys(obj).length === 0; //good
 ```
 
 ## String
-#### 拼接重复的字符串
+#### 拼接重复的字符串用String.repeat()
 - [repeat.js](./string/repeat.js)
 ``` javascript
 "hello".repeat(10); //good
 ```
-#### 去前后空格
+#### 去前后空格用String.trim()
 - [trim.js](./string/trim.js)
 ``` javascript
 str.trim(); //good，使用原生方法
 ```
 ## Number
-#### 转int
+#### 转int时，parseInt()加上第二个参数
 - [parseInt.js](./number/parseInt.js)
 ``` javascript
 parseInt('120'); //bad
 parseInt('120',10); //good，快25%
+let num = -'120';//best，最快
 ```
-#### 转number
+#### 转number，-str很快
 - [toNumber.js](./number/toNumber.js)
 ``` javascript
 let num = -'120.20'; //good，比其他方法快10倍

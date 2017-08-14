@@ -5,9 +5,11 @@ const Benchmark = require('benchmark');
 let suite = new Benchmark.Suite;
 
 suite.add('parseInt', function () {
-  parseInt('120');
+  let num = parseInt('120');
 }).add('parseInt with param', function () {
-  parseInt('120', 10);
+  let num = parseInt('120', 10);
+}).add('-str', function () {
+  let num = -'120';
 }).on('cycle', function (event) {
   console.log(String(event.target));
 }).on('complete', function () {

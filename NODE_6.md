@@ -39,6 +39,12 @@ Array#forEach x 5,634,907 ops/sec ±2.20% (86 runs sampled)
 For x 8,222,875 ops/sec ±1.99% (86 runs sampled)
 Fastest is For
 ```
+#### join
+``` shell
+Array#join x 3,090,573 ops/sec ±2.69% (83 runs sampled)
+For x 3,721,981 ops/sec ±2.64% (82 runs sampled)
+Fastest is For
+```
 
 ### Object
 
