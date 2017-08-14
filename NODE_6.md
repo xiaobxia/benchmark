@@ -87,6 +87,12 @@ String#repeat x 17,875,978 ops/sec ±3.17% (88 runs sampled)
 For x 9,558,928 ops/sec ±2.40% (82 runs sampled)
 Fastest is String#repeat
 ```
+#### trim
+``` shell
+String#trim x 18,455,424 ops/sec ±4.23% (82 runs sampled)
+String#replace x 4,909,374 ops/sec ±4.06% (83 runs sampled)
+Fastest is String#trim
+```
 
 ### Number
 #### toNumber

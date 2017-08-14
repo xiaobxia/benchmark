@@ -54,6 +54,11 @@ Object.keys(obj).length === 0; //good
 ``` javascript
 "hello".repeat(10); //good
 ```
+#### 去前后空格
+- [trim.js](./string/trim.js)
+``` javascript
+str.trim(); //good，使用原生方法
+```
 ## Number
 #### 转int
 - [parseInt.js](./number/parseInt.js)
@@ -72,5 +77,12 @@ let num = -'120.20'; //good，比其他方法快10倍
 - [inside_outside.js](./function/inside_outside.js)
 ``` javascript
 //函数写内部略快于外部。但是如果这个函数调用的多，那就写外部，因为每调用一次就会重新声明一遍。
+```
+
+## Path
+#### 路径拼接
+- [path.js](./node/path.js)
+``` javascript
+//简单的路径拼接使用字符串拼接的方式
 ```
 
