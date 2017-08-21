@@ -5,7 +5,7 @@ const Benchmark = require('benchmark');
 let suite = new Benchmark.Suite;
 
 suite.add('-str', function () {
-  let num = -'120.20';
+  let num = +'120.20';
 }).add('parseFloat', function () {
   let num = parseFloat('120.20');
 }).on('cycle', function (event) {
