@@ -81,6 +81,11 @@ let num = -'120';//best，最快
 ``` javascript
 let num = -'120.20'; //good，比其他方法快10倍
 ```
+#### number转string，通过添加空字符串的方式
+- [toString.js](./number/toString.js)
+``` javascript
+let str = ''+120; //good
+```
 
 ## Function
 #### 函数写内部还是外部

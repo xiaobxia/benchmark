@@ -114,3 +114,9 @@ parseInt with param x 66,239,156 ops/sec ±1.90% (86 runs sampled)
 -str x 112,560,910 ops/sec ±2.78% (85 runs sampled)
 Fastest is -str
 ```
+#### - [toString](./number/toString.js)
+``` shell
+add_empty_string x 117,613,352 ops/sec ±3.02% (96 runs sampled)
+toString x 61,081,978 ops/sec ±1.73% (104 runs sampled)
+Fastest is add_empty_string
+```
