@@ -79,7 +79,7 @@ let num = -'120';//best，最快
 #### 转number，-str很快
 - [toNumber.js](./number/toNumber.js)
 ``` javascript
-let num = -'120.20'; //good，比其他方法快10倍
+let num = +'120.20'; //good，比其他方法快10倍
 ```
 #### number转string，通过添加空字符串的方式
 - [toString.js](./number/toString.js)
