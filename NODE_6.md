@@ -45,6 +45,12 @@ Array#join x 3,090,573 ops/sec ±2.69% (83 runs sampled)
 For x 3,721,981 ops/sec ±2.64% (82 runs sampled)
 Fastest is For
 ```
+#### - [reduce](./array/reduce.js)
+``` shell
+Array#reduce x 5,284,045 ops/sec ±1.33% (86 runs sampled)
+For x 17,429,774 ops/sec ±1.56% (85 runs sampled)
+Fastest is For
+```
 
 ### Object
 

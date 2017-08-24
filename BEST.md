@@ -35,6 +35,13 @@ for (let k = 0, len = ary.length; k < len; k++) { //good
   temp += k === 0 ? ary[k] : '_' + ary[k];
 }
 ```
+#### 不要使用reduce
+- [reduce.js](./array/reduce.js)
+``` javascript
+let temp = ary.reduce(function (total, currentValue) {
+    return total + currentValue;
+  }, 0); //bad
+```
 ## Object
 #### 不要使用Object.assign
 - [assign.js](./object/assign.js)
